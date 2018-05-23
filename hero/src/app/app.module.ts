@@ -6,8 +6,6 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { FormsModule} from "@angular/forms";
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { MessagesComponent } from './messages/messages.component';
-import {HeroService} from "./hero.service";
-import {MessageService} from "./message.service";
 
 @NgModule({
   declarations: [
@@ -20,7 +18,7 @@ import {MessageService} from "./message.service";
     BrowserModule,
     FormsModule
   ],
-  providers: [HeroService, MessageService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
